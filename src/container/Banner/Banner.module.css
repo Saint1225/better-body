@@ -1,0 +1,23 @@
+.Banner {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.Banner img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.innerButton {
+    position: absolute;
+    bottom: 15%;
+    left: 20%;
+}
+
+@media (max-width: 500px) {
+    .innerButton {
+        bottom: 58%;
+        left: 29%;
+    }
+}

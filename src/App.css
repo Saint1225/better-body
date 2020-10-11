@@ -1,0 +1,32 @@
+.App {
+  border: solid 1px black;
+  box-sizing: border-box;
+}
+
+#img1 {
+  display: block;
+}
+
+#img2 {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  #img1 {
+    display: none;
+  }
+  
+  #img2 {
+    display: block;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

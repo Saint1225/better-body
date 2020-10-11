@@ -1,0 +1,51 @@
+.nav {
+    position: relative;
+}
+
+.leftPic {
+    padding: 8px 12px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.navBar {
+    display: block;
+    position: relative;
+    float: right;
+}
+
+.navMenu {
+    display: inline-block;
+}
+
+.hamburgerMenu {
+    display: none;
+    width: auto;
+    height: auto;
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+    top: 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 810px) {
+    .navBar {
+        position: absolute;
+        top: 50px;
+        z-index: 90;
+        width: 100%;
+        background-color: #fff;
+    }
+    .navMenu {
+        display: none;
+        flex-direction: column;
+    }
+    .hamburgerMenu {
+        display: inline-block;
+    }
+    .navMenuActive {
+        display: flex;
+    }
+}

@@ -1,0 +1,31 @@
+.navItem {
+    width: auto;
+    height: 64px;
+    padding: 0px 20px;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: 0.7s;
+}
+
+.navItem:hover {
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+@media (max-width: 1000px) {
+    .navItem {
+        font-size: 16px;
+        padding: 0px 14px;
+    }
+}
+
+@media (max-width: 810px) {
+    .navItem {
+        font-size: 20px;
+        height: 50px;
+    }
+}

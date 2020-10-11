@@ -1,0 +1,66 @@
+.TopBar {
+    background-color: #bbb;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+}
+
+.rightMenu {
+    position: absolute;
+    right: 0px;
+}
+
+.rightPhone {
+    height: 40px;
+    margin: 0px;
+    padding: 0px 10px;
+    transition: 0.7s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.rightItem {
+    height: 40px;
+    margin: 0px;
+    padding: 0px 10px;
+    cursor: pointer;
+    transition: 0.7s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.rightItem p,
+.rightPhone p {
+    padding: 0px 8px;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.rightItem:hover{
+    background-color: #eee;
+    color: #555;
+}
+
+@media (max-width: 600px) {
+    .icons {
+        display: none;
+    }
+}

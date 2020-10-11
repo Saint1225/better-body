@@ -1,0 +1,112 @@
+.homePageContent {
+    width: 60%;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.homePageContent h1 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 30px;
+}
+
+.homePageContent h2 {
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.homePageContent h3 {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+}
+
+.homePageContent p {
+    width: 82%;
+    margin: auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+.whyWomen {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.whyWomenItem {
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    margin: 5px 16px;
+}
+
+.whyWomenItem img {
+    width: 210px;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.spots {
+    width: 82%;
+    margin: auto;
+}
+
+.ageSpots {
+    width: 50%; 
+    display: inline-block;
+}
+
+.whyAgeSpots {
+    width: 50%; 
+    display: inline-block; 
+    vertical-align: top;
+}
+
+
+@media (max-width: 810px) {
+    .homePageContent {
+        width: 80%;
+    }
+    
+    .homePageContent h1 {
+        width: 100%;
+        font-size: 20px;
+    }
+    .homePageContent h2 {
+        font-size: 12px;
+    }
+    .whyWomen {
+        width: 180px;
+    }
+    .whyWomenItem {
+        width: 180px;
+        margin: 5px 0px;
+    }
+    .whyWomenItem img {
+        width: 180px;
+    }
+    .whyAgeSpots {
+        width: 100%;
+        display: block;
+    }
+    .whyAgeSpots p{
+        width: 100%;
+    }
+    .ageSpots {
+        width: 100%;
+        display: block;
+    }
+}

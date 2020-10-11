@@ -1,0 +1,30 @@
+.buttonLink {
+    width: auto;
+    height: 40px;
+    margin: 12px;
+    padding: 0px 20px;
+    color: rgb(235, 26, 26);
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: brown;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px #999;
+    transition: 0.7s;
+}
+
+.buttonLink:hover {
+    background-color: rgb(194, 75, 75);
+}
+
+@media (max-width: 1000px) {
+    .buttonLink {
+        font-size: 16px;
+        padding: 0px 14px;
+    }
+}
